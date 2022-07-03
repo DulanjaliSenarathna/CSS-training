@@ -96,3 +96,31 @@ header .socialmedia ul li a{
 header .socialmedia ul li a:hover{
     background: orange;
 }
+
+nav {
+    background: #000;
+    background: linear-gradient(#0d0d0d , #404040, #0d0d0d);
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li {
+    display: inline
+}
+
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    margin: 10px 40px 10px 40px;
+    display: inline-block;
+    
+}
+
+nav ul li a:hover{
+    color: red;
+}
