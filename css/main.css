@@ -1,8 +1,17 @@
 * { margin: 0; padding: 0; }
 
-a { text-decoration: none; }
+a { 
+    text-decoration: none;
+    color: red;
+}
 
 .clearfix { overflow: auto }
+
+p{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+}
 
 .wrapper {
 	margin: 0 auto;
@@ -150,7 +159,6 @@ div.introtext p{
 }
 div.introtext a{
     text-transform: uppercase;
-    color: red;
     float: right;
 }
 
@@ -162,7 +170,20 @@ div .homecontent{
 div .home-col{
     margin-left: 15px;
     width: 313.33px;
-    height: 100px;
-    background: #bbb;
     float: left;
+}
+
+div .home-col img{
+    width: 313.33px;
+}
+
+div .home-col h2{
+     margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+div .home-col a{
+    float: right;
 }
