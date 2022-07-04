@@ -11,6 +11,7 @@ p{
     margin-bottom: 15px;
     margin-top: 10px;
     font-size: 18px;
+    color: #444;
 }
 
 .wrapper {
@@ -165,6 +166,8 @@ div.introtext a{
 div .homecontent{
     width: 1000px;
     background-color: #eee;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 div .home-col{
@@ -186,4 +189,18 @@ div .home-col h2{
 
 div .home-col a{
     float: right;
+}
+
+div .services{
+    margin-bottom: 20px;
+}
+
+div .services img{
+    width: 64px;
+    float: left;
+    margin-right: 15px;
+}
+
+div .services p{
+    margin-top: 0;
 }
