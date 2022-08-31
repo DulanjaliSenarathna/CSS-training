@@ -236,3 +236,23 @@ div .quote h3 {
 div .quote p{
     clear: both;
 }
+
+footer{
+    width:1000px;
+    float:left;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+div.footercol{
+    width:231.25px;
+    float:left;
+    margin-left:15px;
+    border-top: 1px solid #000;
+}
+
+div.footercol h4{
+    text-transform:uppercase;
+    margin-top:15px;
+    color:#444;
+}
