@@ -301,3 +301,29 @@ div.blogpost p{
 div.blogpost a.readmore{
     float:right;
 }
+
+form.contact input, form.contact textarea{
+    background:#eee;
+    padding:5px;
+    margin-bottom:5px;
+    width:221.25px;
+    border:none;
+    border-radius:5px;
+    font-family:inherit;
+    font-size:16px;
+}
+
+form.contact textarea{
+    height:130px;
+}
+
+form.contact button{
+    background:#eee;
+    color:red;
+    border:none;
+    border-radius:5px;
+    padding:10px 20px;
+    font-size:16px;
+    font-family:inherit;
+}
+
