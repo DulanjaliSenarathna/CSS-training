@@ -327,3 +327,19 @@ form.contact button{
     font-family:inherit;
 }
 
+div.copyrights{
+    width:1000px;
+    background:#eee;
+    float:left;
+}
+
+div.left{
+    float:left;
+    margin:20px;
+}
+
+div.right{
+    float:right;
+    margin:20px;
+}
+
