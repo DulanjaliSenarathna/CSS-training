@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
@@ -252,7 +254,50 @@ div.footercol{
 }
 
 div.footercol h4{
+    font-size:20px;
     text-transform:uppercase;
     margin-top:15px;
+    margin-bottom:15px;
     color:#444;
+}
+
+div.tweet p{
+    font-size:16px;
+}
+
+ul.quicklinks{
+    margin-top:10px;
+    list-style:none;
+}
+
+ul.quicklinks li a{
+    padding-bottom:5px;
+    margin-bottom:5px;
+    display:block;
+    border-bottom:1px solid #aaa;
+    color:#666;
+}
+
+ul.quicklinks li a::before {
+    content: "»"
+}
+
+ul.quicklinks li a:hover{
+    color:red;
+}
+
+div.blogpost{
+    clear:both;
+}
+
+div.blogpost h5{
+    font-size:20px;
+}
+
+div.blogpost p{
+    font-size:16px;
+}
+
+div.blogpost a.readmore{
+    float:right;
 }
